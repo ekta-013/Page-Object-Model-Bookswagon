@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/EKTA/IdeaProjects/PageObjectBooksWagon">
+        <classes>
+            <class name="com.bridgelabz.test.BooksWagonTest">
+                <methods>
+                    <include name="redirectOnSignup"/>
+                    <include name="insertDataInField"/>
+                    <include name="signInIntoBookswagon"/>
+                    <include name="searchAndSelectBookFromSearchBar"/>
+                    <include name="AddAndCheckBookIntoWIshlist"/>
+                    <include name="AddToCartPlaceorder"/>
+                    <include name="AddAddressinfield"/>
+                    <include name="logoutoption"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.test.TestFail">
+                <methods>
+                    <include name="testPassed"/>
+                    <include name="testFailed"/>
+                    <include name="testDepend"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
